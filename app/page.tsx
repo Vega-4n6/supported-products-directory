@@ -72,7 +72,6 @@ export default function HomePage() {
                 className="group card p-5 flex items-center gap-3 cursor-pointer"
               >
                 <span className="grid h-11 w-11 place-items-center rounded-lg bg-cta/10 text-cta transition-colors group-hover:bg-cta group-hover:text-white">
-                  {/* @ts-expect-error runtime icon name */}
                   <Icon name={c.icon} />
                 </span>
                 <span className="flex-1 min-w-0">

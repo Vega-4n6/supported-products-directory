@@ -35,7 +35,6 @@ export default function WhySupportedPage() {
           {benefits.map((b) => (
             <div key={b.title} className="card p-6">
               <span className="grid h-11 w-11 place-items-center rounded-lg bg-cta/10 text-cta">
-                {/* @ts-expect-error runtime icon */}
                 <Icon name={b.icon} />
               </span>
               <h3 className="mt-4 text-lg font-bold text-primary">{b.title}</h3>
